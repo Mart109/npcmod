@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "npcmod",
+	"version": "1.0.0",
+	"name": "§6✨ NPC Kingdom ✨",
+	"description": "§a33 уникальных NPC с торговлей, телепортацией, диалогами, репутацией и монетами!",
+	"authors": ["Ты"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/npcmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.npcmod.NpcMod"
+		],
+		"client": [
+			"com.example.npcmod.NpcModClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"geckolib": ">=4.2.2"
+	}
+}
